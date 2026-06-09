@@ -1,49 +1,125 @@
+*{
+    box-sizing: border-box;
+    max-width: 700%;
+}
+
+body{
+    background: rgb(229, 223, 223)
+
+}
 header{
- background-color: rgb(6, 6, 143);
- text-align: center;
- padding: 1px 1px;
- margin-top: 30px;
- margin-bottom: 20px;
- box-shadow:1px 1px 7px rgb(254,0,0);
+    background: linear-gradient(to right,#003d80,#0066cc);
+    text-align: center;
+    padding: 40px;
+    margin-left: 20%;
+    margin-right: 16%;
+     box-shadow: -3px 3px 5px red, 0px 3px 5px red;
 }
-h1{
-
- color: white;
- text-align: center;
- text-shadow: 2px 2px 7px rgb(254,0,0);
- padding:10px;
- font-size: 60px;
- font-weight: bold;
- margin: outo;
- 
+header h1{
+    color: #fff;
+    text-shadow: 3px 3px 7px red;
+    font-size: 70px;
+    font-weight: bold;
 }
-p{
-    background-color: rgb(70, 70, 143);
- color: white;
- text-align: center;
- padding: 10px;
- padding-left: 20px;
- padding-right: 20px;
- border-radius: 20px;
- border-left: 5px;
- border-right: 5px;
- box-shadow: 5px 5px 7px rgb(230, 224, 224);
- margin-left: 50px;
- margin-right: 50px;
-
+.madax{
+    width: 100%;
+    margin: 10px;
+    padding: 5px ;
+    color: white;
+    font-size: 24px;
+    border-radius: 40px;
+    background: #285381;
+    box-shadow: 5px 5px 10px white;
 }
 nav{
-     background-color: rgb(125, 189, 219);
-    padding:15px;
-    margin: 5px 5px;
-    float: left;
-    height: 100vh;
-    width: 40vh;
-    box-shadow: 2px 2px 15px red;
-    border-right: 2px dashed rgb(47, 160, 216);
-    text-decoration: none;
+    display: flex;
+
+
+}
+.dhinac{
+    width: 235px;
+    background: #d8e9fa;
+    padding: 25px;
+    border-right: 5px dashed #0066cc;
+    margin-left: 20%;
+    margin-right: 30px;
+    box-shadow: -3px 3px 5px red;
+}
+.dhinac h2{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 15px;
+
+}
+.menu-line{
+    border-top: 8px dashed #004b8d;
+    margin-bottom: 50px;
     
 }
 a{
-    display: block;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 18px 20px;
+    margin-bottom: 18px;
+    border-radius: 25px;
+    border: 6px dotted#334dff;
+    background: #d8e9fa;
+    box-shadow: 8px 8px 15px rgba(255,0,0,5);
+    text-shadow:8px 8px 15px rgba(255,0,0,5);
+    align-items: center;
+    
+
+}
+
+.dhaxda{
+    background: white;
+    padding: 29.5px;
+    margin-left: -55px;
+    height: 10%;
+    float: right;
+    margin-top: -52.5%;
+    margin-bottom: 16px;
+    margin-right: 15.9%;
+    width: 46.1%;
+    box-shadow: 3px -3px 5px red;
+    
+    
+}
+.dhaxda h2{
+    font-size: 28px;
+    color: #003d80;
+    margin-bottom: 25px;
+    border-bottom: 4px solid #3385d6;
+}
+.qor{
+    background: #eef5ff;
+    border: 3px solid #3385d6;
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 35px;
+    box-shadow: 10px 10px 15px rgba(255,0,0,4);
+}
+.qor h3{
+    color: #003d80;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(255,0,0,4);
+}
+.qor p{
+    font-size: 18px;
+    line-height: 1.5;
+}
+.Hoos{
+background:linear-gradient(to right,#003d80,#0066cc);
+    color:white;
+    margin-left: 20%;
+    margin-right: 16%;
+    text-align:center;
+    box-shadow: 3px 0 5px red, -3px 0 5px red;
+    padding:25px;
+    font-size:18px;
+    letter-spacing:2px;
+    margin-top: 1%;
 }
